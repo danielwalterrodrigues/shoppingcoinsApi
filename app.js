@@ -3,6 +3,26 @@ const app = express();
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
+const homepageContent = [
+  {
+    "Id": "P1004",
+    "name": "Dell XPS 13",
+    "quickCescription": "Notebook premium com tela infinita e alto desempenho.",
+    "price": 6999.90,
+    "imageUri": "https://source.unsplash.com/800x600/?laptop",
+    "category": "Notebooks",
+    "creationDate": "2025-01-18"
+  },
+  {
+    "Id": "P1005",
+    "name": "Apple Watch Series 9",
+    "quickCescription": "Relógio inteligente com sensores avançados de saúde.",
+    "price": 3499.00,
+    "imageUri": "https://source.unsplash.com/800x600/?smartwatch",
+    "category": "Wearables",
+    "creationDate": "2025-01-19"
+  }
+]
 
 const products = [
   {
@@ -101,6 +121,11 @@ const products = [
 
 app.get('/products', (req, res) => {
   res.json(products);
+});
+
+
+app.get('/homeproducts', (req, res) => {
+  res.json(homepageContent);
 });
 
 
