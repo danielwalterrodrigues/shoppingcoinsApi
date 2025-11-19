@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 const products = [
   {
-    "ID": "P1001",
+    "Id": "P1001",
     "name": "iPhone 15 Pro Max",
     "quickCescription": "Smartphone premium com câmera avançada e design em titânio.",
     "price": 8999.90,
@@ -15,7 +15,7 @@ const products = [
     "creationDate": "2025-01-15"
   },
   {
-    "ID": "P1002",
+    "Id": "P1002",
     "name": "Samsung Galaxy S24 Ultra",
     "quickCescription": "Poderoso smartphone Android com câmera de 200MP.",
     "price": 8299.00,
@@ -24,7 +24,7 @@ const products = [
     "creationDate": "2025-01-16"
   },
   {
-    "ID": "P1003",
+    "Id": "P1003",
     "name": "MacBook Air M2",
     "quickCescription": "Notebook ultrafino com chip M2 e bateria de longa duração.",
     "price": 7999.00,
@@ -33,7 +33,7 @@ const products = [
     "creationDate": "2025-01-17"
   },
   {
-    "ID": "P1004",
+    "Id": "P1004",
     "name": "Dell XPS 13",
     "quickCescription": "Notebook premium com tela infinita e alto desempenho.",
     "price": 6999.90,
@@ -42,7 +42,7 @@ const products = [
     "creationDate": "2025-01-18"
   },
   {
-    "ID": "P1005",
+    "Id": "P1005",
     "name": "Apple Watch Series 9",
     "quickCescription": "Relógio inteligente com sensores avançados de saúde.",
     "price": 3499.00,
@@ -51,7 +51,7 @@ const products = [
     "creationDate": "2025-01-19"
   },
   {
-    "ID": "P1006",
+    "Id": "P1006",
     "name": "Sony WH-1000XM5",
     "quickCescription": "Headphone com cancelamento de ruído líder da categoria.",
     "price": 2499.90,
@@ -60,7 +60,7 @@ const products = [
     "creationDate": "2025-01-20"
   },
   {
-    "ID": "P1007",
+    "Id": "P1007",
     "name": "Logitech MX Master 3S",
     "quickCescription": "Mouse profissional ergonômico de alta precisão.",
     "price": 499.90,
@@ -69,7 +69,7 @@ const products = [
     "creationDate": "2025-01-21"
   },
   {
-    "ID": "P1008",
+    "Id": "P1008",
     "name": "iPad Pro 12.9 M2",
     "quickCescription": "Tablet poderoso com tela Liquid Retina XDR.",
     "price": 10499.00,
@@ -78,7 +78,7 @@ const products = [
     "creationDate": "2025-01-22"
   },
   {
-    "ID": "P1009",
+    "Id": "P1009",
     "name": "Nintendo Switch OLED",
     "quickCescription": "Console híbrido com tela OLED vibrante.",
     "price": 2499.00,
@@ -87,7 +87,7 @@ const products = [
     "creationDate": "2025-01-23"
   },
   {
-    "ID": "P1010",
+    "Id": "P1010",
     "name": "GoPro Hero 12 Black",
     "quickCescription": "Câmera de ação com estabilização avançada.",
     "price": 2999.00,
