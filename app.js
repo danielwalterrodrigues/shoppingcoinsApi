@@ -118,10 +118,13 @@ app.post('/login', (req, res) => {
     return res.status(200).json({
       message: "Login realizado com sucesso",
       user: {
+        logged: true,
         useId: "U1001",
         username: username,
         name: "Usuário Teste",
         token: "fake-jwt-token-123",
+        balance: 1500.00,
+        signupDate: new Date()
       }
     });
   }
