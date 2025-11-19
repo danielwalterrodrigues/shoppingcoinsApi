@@ -144,7 +144,7 @@ app.post('/login', (req, res) => {
       message: "Login realizado com sucesso",
       user: {
         logged: true,
-        useId: "U1001",
+        userId: "U1001",
         username: username,
         name: "Usuário Teste",
         token: "fake-jwt-token-123",
